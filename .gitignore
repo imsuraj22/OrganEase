@@ -1,0 +1,59 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+client/node_modules/
+server/node_modules/
+
+# Build directories
+client/build/
+server/dist/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+client/.env
+server/.env
+
+# Temporary files
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# React specific
+client/.next/
+client/out/
+
+# Optional npm cache directory
+client/.npm
+server/.npm
+
+# Optional eslint cache
+client/.eslintcache
+server/.eslintcache
+
+# IDE-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# MacOS-specific files
+.DS_Store
+
+# Windows-specific files
+Thumbs.db
+    
