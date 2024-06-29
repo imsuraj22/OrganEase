@@ -7,6 +7,9 @@ var gateway = new braintree.BraintreeGateway({
   publicKey: '6rdyw7rcgf4s3qk6',
   privateKey: process.env.BRAINTREE_PRIVATE_KEY,
 });
+console.log('Public Key:', process.env.BRAINTREE_PUBLIC_KEY); // Should log: 6rdyw7rcgf4s3qk6
+console.log('Merchant ID:', process.env.BRAINTREE_MERCHANT_ID); // Should log yourMerchantId
+console.log('Private Key:', process.env.BRAINTREE_PRIVATE_KEY);
 
 class brainTree {
   ganerateToken(req, res) {
