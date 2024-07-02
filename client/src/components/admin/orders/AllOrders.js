@@ -4,7 +4,7 @@ import moment from "moment";
 import { OrderContext } from "./index";
 import { fetchData, editOrderReq, deleteOrderReq } from "./Actions";
 
-const apiURL = process.env.REACT_APP_API_URL;
+const apiURL = 'https://organease.onrender.com';
 
 // Assuming pName is a number representing hours
 

@@ -5,7 +5,7 @@ import { getAllCategory } from "../../admin/categories/FetchApi";
 import { getAllProduct, productByPrice } from "../../admin/products/FetchApi";
 import "./style.css";
 
-const apiURL = process.env.REACT_APP_API_URL;
+const apiURL = 'https://organease.onrender.com';
 
 const CategoryList = () => {
   const history = useHistory();

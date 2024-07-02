@@ -1,5 +1,5 @@
 import axios from "axios";
-const apiURL = process.env.REACT_APP_API_URL;
+const apiURL = 'https://organease.onrender.com';
 
 export const wishListProducts = async () => {
   let productArray = JSON.parse(localStorage.getItem("wishList"));

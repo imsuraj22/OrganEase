@@ -1,5 +1,5 @@
 import axios from "axios";
-const apiURL = "http://localhost:8000";
+const apiURL = 'https://organease.onrender.com';
 
 export const isAuthenticate = () =>
   localStorage.getItem("jwt") ? JSON.parse(localStorage.getItem("jwt")) : false;
@@ -21,7 +21,7 @@ export const loginReq = async ({ email, password }) => {
 
 export const signupReq = async ({ name, email, password, cPassword }) => {
   const data = { name, email, password, cPassword };
-  console.log("qdqwqwwdwdwdd",process.env.REACT_APP_API_URL)
+  console.log("qdqwqwwdwdwdd",'https://organease.onrender.com')
   try {
     let res = await axios.post(`${apiURL}/api/signup`, data);
     return res.data;
